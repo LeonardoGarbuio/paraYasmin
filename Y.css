@@ -1,0 +1,37 @@
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+  }
+  h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Uma fonte descontraída e romântica */
+    color: #FF69B4; /* Cor rosa */
+    font-size: 4rem; /* Tamanho grande para destaque */
+    text-align: center; /* Centralizado */
+    text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.5); /* Sombra suave para destacar */
+    animation: pulse 1.5s infinite; /* Animação pulsante */
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: rgba(255, 105, 180, 0.2); /* Fundo com cor suave para combinar */
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.5); /* Sombra para dar profundidade */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
